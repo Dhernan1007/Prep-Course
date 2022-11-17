@@ -65,7 +65,7 @@ function sonIguales(x, y) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (x===y){
-    return "son iguales";
+    return true;
   }
   else{
     return false;
@@ -185,10 +185,10 @@ function esPositivo(numero) {
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
   if(numero > 0){
-    return "Es Positivo";
+    return "Es positivo";
   }
   if (numero < 0 ) {
-    return "Es Negativo";
+    return "Es negativo";
   } else {
     return false;
   }
@@ -213,13 +213,13 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return "Hola" + " "+ nombre;
+  return 'Hola ' +nombre +'!';
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
   // Retornar el area de un rectángulo teniendo su altura y ancho
   // Tu código:
-  return "El área del rectangulo es: " + (alto*ancho) + "cm²";
+  return (alto*ancho) ;
 }
 
 
@@ -241,7 +241,7 @@ function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
-  return euro*1.2;
+  return (euro*1.2);
 }
 
 function esVocal(letra){
@@ -255,7 +255,7 @@ function esVocal(letra){
       return "Es vocal";
     }
     else{
-      return "Dato Incorrecto";
+      return "Dato incorrecto";
     }}
 
 // No modificar nada debajo de esta línea
