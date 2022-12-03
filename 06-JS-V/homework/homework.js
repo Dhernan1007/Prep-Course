@@ -46,7 +46,7 @@ function agregarStringInvertida() {
     return palabraInvertida;*/
 
     String.prototype.reverse = function(){
-    return  this.split('').reverse().join('');
+    return  this.split('').reverse().join('')
     }
      
 }

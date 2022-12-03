@@ -21,7 +21,7 @@ function mayoriaDeEdad(edad) {
     return 'Allowed';
   }
   else{
-    return 'Not allowed';
+    return 'Not allowed'
   }
 }
   

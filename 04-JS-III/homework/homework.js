@@ -272,7 +272,7 @@ function continueStatement(numero) {
       aumento.push(suma);
      
    }
-  return aumento;
+  return aumento
 }
 
 
